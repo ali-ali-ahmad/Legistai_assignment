@@ -6,7 +6,7 @@
 
 Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
 
-### Environment Setup
+## Environment Setup
 
 In case you dont have enviroment, follow these steps for installation:
 
@@ -28,13 +28,13 @@ On macOS and Linux:
 source venv/bin/activate
 ```
 
-### Install the required packages:
+## Install the required packages:
 
 ```bash
 pip install Flask pyodbc python-dotenv flask-cors
 ```
 
-### Configuration:
+## Configuration:
 
 Create a .env file in the root directory of your project and add the necessary environment variables:
 
@@ -46,7 +46,7 @@ DB_PASSWORD="your_password_here"
 DB_DRIVER="your_driver_here"
 ```
 
-### Running the Server:
+## Running the Server:
 
 make sure you are in the server directory, and run the following in your terminal:
 
